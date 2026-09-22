@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  ecommerce,
+  llm,
+  dashboard,
 } from "../assets";
 
 export const navLinks = [
@@ -104,10 +107,6 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
@@ -160,19 +159,19 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product.",
     name: "Bene",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' .",
     name: "Kelveena",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After optimizing our website, our traffic increased by 50%. We can't thank them enough!",
     name: "McCarthy",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
@@ -234,6 +233,27 @@ const projects = [
     image: tripguide,
     source_code_link: "https://github.com/",
   },
+  {
+    name: "Learning Management System",
+    description:
+      "Developed a Learning Management System designed to make quality education more accessible by offering affordable paid courses across a range of subjects. The platform allows students to personalize their learning journey, choosing courses that align with their goals and progressing at their own pace. ",
+    tags: [
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "superbase",
+        color: "green-text-gradient",
+      },
+    ],
+    image: llm,
+    source_code_link: "https://github.com/",
+  },
    {
     name: "Ecommerce Mobile App",
     description:
@@ -255,22 +275,8 @@ const projects = [
         name: "nodejs",
         color: "green-text-gradient",
       },
-
     ],
     image: ecommerce,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Snake Game",
-    description:
-      "Developed a classic implementation of the timeless Snake game, built entirely in Java. The player controls a snake that moves continuously around the game board, eating food that appear at random positions.",
-    tags: [
-      {
-        name: "java",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: snake,
     source_code_link: "https://github.com/",
   },
   {
